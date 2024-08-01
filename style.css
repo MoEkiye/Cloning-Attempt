@@ -1,0 +1,155 @@
+   /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #482d74;
+    margin: 0 10px;
+}
+
+/* Header Styles */
+header {
+    padding: 10px 0;
+    height: 70px;
+    align-items: center;
+    margin-inline: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+nav img {
+    margin-left: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.brand.logo img {
+    max-height: 300px;
+    position: relative;
+    text-align: center;
+    margin: top 300px;    
+}
+
+/* Search Box Styles */
+.Search.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Search.box img {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+
+.s-input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+}
+
+.s-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.s-btn:hover {
+    background-color: #ffffff;
+}
+
+/* Language Links Styles */
+.lang {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.lang a {
+    margin: 0 5px;
+    font-size: 1.2em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer section {
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+    color: #8d8888;
+    border-bottom: 1px;
+    font-size: 1.2em;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+    min-width: 20%;
+}
+
+footer .links a {
+    margin: 5px;
+    color: #8d8888;
+    font-size: 1.2em;
+}
+
+footer .links b {
+    justify-content: flex-end;
+    min-width: 30%;
+    color: #8d8888;
+    font-size: 1.2em;
+    
+}
+
+   
+
+
+
+  
